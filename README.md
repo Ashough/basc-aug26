@@ -20,7 +20,7 @@ These notebooks make two of those paths concrete and engineerable.
 
 ## Notebook 1 — The Fairness Gap Is a Map
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashough/basc-aug26/blob/main/notebooks/01_fairness_side_channel.ipynb)
 
 A card-not-present fraud scorer. The model never sees a protected attribute — it
 sees payment instrument and account tenure, which are legitimate risk signals.
@@ -50,7 +50,7 @@ decision-logic leakage. **Naming this gap is the contribution.**
 
 ## Notebook 2 — The Explanation Is Not the Reason
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashough/basc-auf26/blob/main/notebooks/02_fairwashing.ipynb)
 
 Same model, same defect. This time the target isn't the model — it's the artifact
 a human reviewer trusts in order to decide whether to trust the model.
