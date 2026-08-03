@@ -1,4 +1,4 @@
-# AI Ethics Is a Security Problem — Demos
+# AI Ethics Is a Security Problem — Artifacts and Demos
 
 Companion code for the talk at **OWASP Boston, August 12, 2026**.
 Mardiros Merdinian · [Substack](https://aiethicsframework.substack.com/) · [SAIEF](https://aiethicsframework.substack.com/p/security-informed-ai-ethics-framework)
