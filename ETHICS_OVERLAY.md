@@ -56,20 +56,8 @@ would make this artifact worse.
 - **LLM10 Unbounded Consumption** — a cost and availability problem.
 - **LLM07 System Prompt Leakage**, **LLM08 Vector & Embedding Weaknesses** —
   covered in substance by ASI06 above; separate rows would be padding.
-- **ASI07 Insecure Inter-Agent Communication** — the near-neighbour to the gap
-  row, discussed below rather than duplicated here.
-
-A blank cell is more useful than an invented one.
-
-## The gap row
-
-The last row has no OWASP number. The nearest neighbours don't fit: **ASI07**
-covers inter-agent channels, not a model leaking its own decision boundary;
-model inversion under **LLM02** is data disclosure, not decision-logic leakage.
-
-That's not a criticism of the taxonomy — it's where the taxonomy hasn't reached
-yet, and it's the most useful thing an ethics lens has to offer this project.
-The [OWASP GenAI Security Project](https://genai.owasp.org) takes contributions.
+- **ASI07 Insecure Inter-Agent Communication** — The nearest neighbours don't fit: **ASI07**
+covers inter-agent channels, not a model leaking its own decision boundary
 
 ---
 
@@ -97,8 +85,8 @@ Three things, none requiring budget or a reorg — all from the core eight:
 
 ---
 
-*Working demos of two of these rows: [repo link]. Longer framework treatment
-(SAIEF): [link]. Both free, neither is a product.*
+*Working demos of two of these rows: https://github.com/Ashough/basc-aug26. Longer framework treatment
+(SAIEF): https://aiethicsframework.substack.com/p/security-informed-ai-ethics-framework. Both free, neither is a product.*
 
 *Mardiros Merdinian · OWASP Boston, August 12 2026 · CC BY 4.0 — take it, fork
 it, argue with it.*
