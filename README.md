@@ -1,7 +1,16 @@
 # AI Ethics Is a Security Problem — Demos
 
 Companion code for the talk at **OWASP Boston, August 12, 2026**.
-Mardiros Merdinian · [Substack](#) · [SAIEF](#)
+Mardiros Merdinian · [Substack](https://aiethicsframework.substack.com/) · [SAIEF](https://aiethicsframework.substack.com/p/security-informed-ai-ethics-framework)
+
+## Artifacts
+
+- **[The Ethics Overlay to the OWASP Top 10](ETHICS_OVERLAY.md)** — the one-page
+  takeaway. For each relevant OWASP entry: what ethical failure feeds it, what to
+  ask in your threat model, and one thing to test.
+- **[Notebook 1](notebooks/01_fairness_side_channel.ipynb)** — fairness gap as
+  attacker reconnaissance.
+- **[Notebook 2](notebooks/02_fairwashing.ipynb)** — the explanation is not the reason.
 
 Two notebooks. Both run in Google Colab with no installation and no API keys.
 
