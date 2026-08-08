@@ -56,19 +56,17 @@ Not every OWASP entry has an ethics failure feeding it, and pretending otherwise
 would make this artifact worse.
  
 - **LLM04:2026 / ASI04 Supply Chain** — real risks, but the principle at stake is
-  security itself. Nothing is added by relabelling it.
+  security itself.
 - **ASI05 Unexpected Code Execution** — RCE. Pure AppSec, and you already own it.
 - **LLM06:2026 Unbounded Consumption** — a cost and availability problem.
 - **LLM09:2026 Vector and Embedding Weaknesses** — covered in substance by
-  ASI06 above; a separate row would be padding.
+  ASI06 above.
 - **ASI07 Insecure Inter-Agent Communication** — the near-neighbour to the gap
   row, discussed below rather than duplicated here.
-A blank cell is more useful than an invented one.
  
 ## The gap row
  
-The last row has no OWASP number. Verified against the 2026 edition: the terms
-"decision boundary" and "fairness" do not appear in it at all. The three nearest
+The last row has no OWASP number. Verified against the 2026 edition: The three nearest
 neighbours each miss for a different reason:
  
 - **ASI07** covers inter-agent channels, not a model leaking to an outside observer.
@@ -80,7 +78,7 @@ neighbours each miss for a different reason:
   is nowhere in the context window, and is inferred purely from behaviour. The
   entry also explicitly scopes out infrastructure-layer side channels.
 That's not a criticism of the taxonomy — it's where the taxonomy hasn't reached
-yet, and it's the most useful thing an ethics lens has to offer this project.
+yet, and it's the most useful thing an ethics lens has to offer.
 The [OWASP GenAI Security Project](https://genai.owasp.org) takes contributions.
  
 ---
@@ -91,10 +89,10 @@ Three things, none requiring budget or a reorg — all from the core eight:
  
 1. **Add one row to your threat model template** — "what ethical failure feeds
    this?" Nothing more. The question does the work.
-2. **Ask where your labels came from.** Not what they are. Where they came from,
+2. **Ask where your labels/data came from.** Not what they are. Where they came from,
    and what generated them. Most teams have never asked.
 3. **Run the counterfactual fidelity test** on one model that produces
-   explanations. It takes an afternoon and it either passes or it doesn't.
+   explanations. It either passes or it doesn't.
 ---
  
 ## Caveats worth keeping
